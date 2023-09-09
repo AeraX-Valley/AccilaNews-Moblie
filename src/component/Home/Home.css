@@ -1,3 +1,10 @@
+.Homepage {
+    background: linear-gradient(180deg, #58E22A 0%, #49C7FB 100%);
+    height: 100vh;
+    width: 100%;
+    position: relative;
+}
+
 
 /*          TabBar           */
 #TabBar {
@@ -32,25 +39,46 @@
 }
 
 /*          Boxalert         */
+#Boxalert {
+    padding: 10px;
+    border-radius: 30px 30px 0px 0px;
+    background-color: white;
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    height: 50%;
+    overflow: auto;
+}
+
 .topBoxalert {
     text-align: center;
     color: #53D976;
+    margin: auto;
+    font-size: 20px;
+    display: block;
+}
+
+a {
+    text-decoration: none !important;
 }
 
 .box {
     width: 80%;
     height: 100%;
     background: #B4EBC2;
-    border-radius: 20px;
     margin: auto;
     display: block;
+    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.08);
 }
 
 .Iconbox {
     background-color: #30954B;
+    width: 80px;
+    height: 80px;
+    border-radius: 15px 0 0 15px;
     display: flex;
     align-items: center;
     justify-content: center;
-    font-size: 50px;
+    font-size: 30px;
     color: white;
 }

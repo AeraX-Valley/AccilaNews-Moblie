@@ -1,5 +1,5 @@
 import './Home.css'
-import { BsCursorFill, BsZoomIn, BsLine, BsStarFill } from 'react-icons/bs';
+import { BsCursorFill, BsGeoAltFill, BsLine, BsStarFill } from 'react-icons/bs';
 import { IoHome } from 'react-icons/io5';
 import { Link } from 'react-router-dom';
 
@@ -16,7 +16,7 @@ export default function TabBar() {
                 </div>
                 {/* Destination */}
                 <div className='IconBar'>
-                    <Link className='Icon' to="/destination"><BsZoomIn /></Link>
+                    <Link className='Icon' to="/destination"><BsGeoAltFill /></Link>
                     <span className='IconText'>Destination</span>
                 </div>
                 {/* Home */}
