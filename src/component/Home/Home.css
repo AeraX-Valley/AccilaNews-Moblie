@@ -1,0 +1,56 @@
+
+/*          TabBar           */
+#TabBar {
+    border-radius: 40px 40px 0px 0px;
+    background: #B4EBC2;
+    width: 100%;
+    height: 93px;
+    position: absolute;
+    bottom: 0;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+}
+
+.IconBar {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.Icon {
+    color: #30954B;
+    font-size: 20px;
+    text-decoration: none;
+}
+
+.IconText {
+    font-size: 15px;
+    color: #30954B;
+    margin-top: 5px;
+}
+
+/*          Boxalert         */
+.topBoxalert {
+    text-align: center;
+    color: #53D976;
+}
+
+.box {
+    width: 80%;
+    height: 100%;
+    background: #B4EBC2;
+    border-radius: 20px;
+    margin: auto;
+    display: block;
+}
+
+.Iconbox {
+    background-color: #30954B;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 50px;
+    color: white;
+}

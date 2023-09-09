@@ -1,0 +1,13 @@
+import './Home.css'
+import Boxalert from './Boxalert'
+import TabBar from './TabBar'
+
+
+export default function Home() {
+    return (
+        <>
+            <Boxalert />
+            <TabBar />
+        </>
+    )
+}
