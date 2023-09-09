@@ -56,7 +56,7 @@ export default function Boxalert() {
                         <CCol className='col-9'>
                             <CCardBody>
                                 <CCardText className='textBox'>
-                                    แจ้งเตือนผ่านการส่งตำแหน่ง <br />
+                                    แจ้งเตือนผ่านการส่งตำแหน่ง
                                     เป็นระยะผ่านไลน์
                                 </CCardText>
                             </CCardBody>

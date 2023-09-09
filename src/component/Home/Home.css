@@ -1,5 +1,5 @@
 .Homepage {
-    background: linear-gradient(180deg, #58E22A 0%, #49C7FB 100%);
+    background: linear-gradient(180deg, #58E22A 0%, #49C7FB 50%);
     height: 100vh;
     width: 100%;
     position: relative;
@@ -46,7 +46,7 @@
     position: absolute;
     bottom: 0;
     width: 100%;
-    height: 50%;
+    height: 60%;
     overflow: auto;
 }
 
@@ -81,4 +81,40 @@ a {
     justify-content: center;
     font-size: 30px;
     color: white;
+}
+
+/*        Header       */
+.Banner {
+    width: 250px;
+    height: 150px;
+    margin: auto;
+    display: block;
+    margin-top: 30px;
+}
+
+.icon-back {
+    position: absolute;
+    top: 10px;
+    left: 10px;
+}
+
+.title {
+    width: 100%;
+    text-align: center;
+    font-size: 30px;
+    color: white;
+}
+
+.logoBKK {
+    width: 30px;
+    position: absolute;
+    top: 10px;
+    right: 10px;
+}
+
+.title-content {
+    font-size: 20px;
+    color: white;
+    text-align: center;
+    margin-top: 20px;
 }
