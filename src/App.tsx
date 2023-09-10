@@ -1,5 +1,8 @@
 import { BrowserRouter as Router, Routes ,Route } from "react-router-dom";
+
+// Components
 import Home from './component/Home/Home';
+import MapStarter from "./component/MapStarter/mapstarter";
 
 function App() {
 
@@ -8,7 +11,7 @@ function App() {
             <Router>
                 <Routes>
                     <Route path='/' element={<Home />} />
-                    <Route path="/about" element={<h1>About</h1>} />
+                    <Route path="/mapstarter" element={<MapStarter />} />
                     <Route path="/dashboard" element={<h1>Dashboard</h1>} />
                 </Routes>
             </Router>
