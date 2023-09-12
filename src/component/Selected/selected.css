@@ -1,0 +1,265 @@
+#SelectedPage {
+    height: 100vh;
+    width: 100%;
+    position: relative;
+    overflow: hidden;
+}
+
+#wareSelected {
+    width: 100%;
+    height: 100%;
+    max-height: 250px;
+    position: absolute;
+    bottom: 0;
+    z-index: 1;
+    overflow: hidden;
+}
+
+.ware1, .ware6 {
+    width: 300%;
+    height: 100%;
+    overflow: hidden;
+}
+
+#ware6 {
+    width: 100%;
+    height: 100%;
+    max-height: 180px;
+    position: absolute;
+    bottom: 0;
+    z-index: 0;
+    overflow: hidden;
+}
+
+#bg {
+    width: 100%;
+    height: 100%;
+    max-height: 270px;
+    position: absolute;
+    bottom: 0;
+    left: 25px;
+    z-index: -1;
+    overflow: hidden;
+}
+
+/*          Header Sekected          */
+
+.headerse {
+    background-color: #57AD3B !important;
+    position: relative;
+    height: 248px;
+}
+
+#signboard {
+    width: 170px;
+    height: 170px;
+    position: absolute;
+    top: 0;
+    right: 0;
+}
+
+.assetsign {
+    width: 170px;
+    height: 170px;
+    position: absolute;
+    top: 0;
+    right: 0;
+}
+
+.assetwat {
+    position: absolute;
+    top: 70px;
+    left: 25px;
+}
+
+.assetsing {
+    position: absolute;
+    top: 20px;
+    right: 5px;
+}
+
+#search {
+    width: 90%;
+    position: absolute;
+    top: 170px;
+    right: 0;
+    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+    border-radius: 5px;
+}
+
+.iconsearch {
+    color: #BC002D;
+    font-size: 25px;
+}
+
+.Textsearch {
+    background-color: white !important;
+    padding: 10px;
+    border: none !important;
+}
+
+.inpsearch {
+    padding: 10px;
+    border: none !important;
+    font-weight: bold;
+    color: #ABABAB;
+}
+
+.assetsearch {
+    position: absolute;
+    top: -15px;
+    right: 50%;
+    transform: translateX(50%);
+    font-size: 13px;
+    padding: 5px 10px 5px 10px;
+    border-radius: 10px;
+    background: #DBDBDB;
+    color: black;
+    z-index: 1;
+}
+
+#text {
+    position: absolute;
+    top: 50px;
+    left: 30px;
+    z-index: 1;
+    color: #fff;
+}
+
+.text1 {
+    font-size: 24px;
+}
+
+.text2 {
+    font-size: 15.5px;
+}
+
+/*          History          */
+
+/* .Selected-gridicon {
+} */
+
+#iconlo {
+    width: 90%;
+    margin: auto;
+    padding: 10px;
+}
+
+.iconlo {
+    width: 50px;
+    height: 50px;
+    font-size: 25px;
+    background-color: rgba(27, 102, 0, 0.26);
+    color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+    border-radius: 100%;
+}
+
+.iconpluslo {
+    color: #1B6600;
+    font-size: 15px;
+    font-weight: bold;
+}
+
+.mylocationSelected {
+    font-size: 13px;
+    text-align: center;
+    overflow-wrap: break-word;
+}
+
+.btn-addlocation {
+    float: right;
+    margin-right: 30px;
+}
+
+/*      Popup     */
+
+#inplo {
+    border: none;
+    border-bottom: 1px solid black;
+    outline: none;
+}
+
+.inplo {
+    font-size: 24px;
+}
+
+.iconnewlo {
+    width: 100px;
+    margin: auto;
+    display: block;
+}
+
+.iconaddlo {
+    width: 93px;
+    height: 93px;
+    font-size: 41px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgba(27, 102, 0, 0.26);
+    color: black;
+    border-radius: 100%;
+}
+
+.inputlo {
+    width: 90%;
+    display: block;
+    margin: auto;
+}
+
+.sussessaddlo {
+    margin: auto;
+    display: block;
+    width: 151px;
+    height: 57px;
+    background-color: #1B6600;
+    border: #1B6600;
+    color: white;
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.sussessaddlo:hover, .sussessaddlo:active {
+    background-color: #175600;
+    border: #175600;
+    color: white;
+    font-weight: bold;
+}
+
+/*          History          */
+#history {
+    width: 90%;
+    margin: auto;
+    display: block;
+}
+
+.historylocationSelected {
+    display: flex;
+    align-items: center;
+}
+
+.titlehis {
+    font-size: 16px;
+}
+
+.iconhistory {
+    background-color: #1B6600;
+    color: white;
+    width: 50px;
+    height: 50px;
+    font-size: 25px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 100%;
+}
+
+.text-location-history {
+    color: #767676;
+    font-size: 11px;
+    margin: 0;
+}

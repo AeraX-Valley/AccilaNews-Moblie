@@ -3,6 +3,7 @@ import { BrowserRouter as Router, Routes ,Route } from "react-router-dom";
 // Components
 import Home from './component/Home/Home';
 import MapStarter from "./component/MapStarter/mapstarter";
+import Selected from "./component/Selected/selected";
 
 function App() {
 
@@ -12,7 +13,7 @@ function App() {
                 <Routes>
                     <Route path='/' element={<Home />} />
                     <Route path="/mapstarter" element={<MapStarter />} />
-                    <Route path="/dashboard" element={<h1>Dashboard</h1>} />
+                    <Route path="/selected" element={<Selected />} />
                 </Routes>
             </Router>
         </>
