@@ -23,7 +23,7 @@ export default function HeaderSelected() {
             </div>
             {/*     Search    */}
             <div id="search">
-                <Link to="/mapdestination"><b className='assetsearch'><FaMapLocationDot /> เลือกจากแผนที่</b></Link>
+                <Link to="/mapdestinition"><b className='assetsearch'><FaMapLocationDot /> เลือกจากแผนที่</b></Link>
                 <InputGroup>
                     <InputGroup.Text className='Textsearch'><BsGeoAltFill className="iconsearch" /></InputGroup.Text>
                     <Form.Control className='inpsearch' placeholder='สถานที่ ?' />
