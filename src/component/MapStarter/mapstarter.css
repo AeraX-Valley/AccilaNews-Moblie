@@ -83,8 +83,13 @@ a {
 
 .loend {
     width: 90%;
-    padding: 10px 50px 10px 50px;
+    height: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-decoration: none;
     font-size: 20px;
+    font-weight: bold;
     border-radius: 10px;
     background: #C83625;
     color: white;
@@ -108,7 +113,6 @@ a {
     background: #1B6600;
     color: white;
     text-align: center;
-    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
     position: absolute;
     bottom: -10%;
     left: 50%;
@@ -141,4 +145,17 @@ a {
 .to {
     display: block;
     padding: 10px;
+}
+
+.box-mytolo-end {
+    width: 363px;
+    height: 188px;
+    border-radius: 10px;
+    background-color: #169B00;
+    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+    position: absolute;
+    bottom: 80px;
+    left: 50%;
+    transform: translateX(-50%);
+    z-index: 2;
 }
