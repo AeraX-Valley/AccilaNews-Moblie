@@ -1,7 +1,7 @@
 import { Link } from "react-router-dom"
 import { FaChevronLeft } from "react-icons/fa";
-import map from '../../image/Test/IMG_9458 1.png'
 import Mylodes from './mylo';
+import Map from "../Map";
 
 export default function MapDestinition() {
     return (
@@ -10,7 +10,7 @@ export default function MapDestinition() {
             <Link to='/selected' className='back-Button'><FaChevronLeft /></Link>
             {/*           Map            */}
             <div className="map">
-                <img src={map} className="map" alt="" />
+                <Map />
             </div>
             {/*         Mylo         */}
             <Mylodes />
